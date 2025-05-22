@@ -1,0 +1,157 @@
+header, main, footer {
+    margin: 0 auto;
+    width: 80vw;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    body {
+        background-image: url("imeges/back1.webp");
+        background-size: cover;
+    }
+
+}
+
+header, .description, .buttons, .price {
+
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+
+
+    a {
+        padding: 20px 20px;
+        text-decoration: none;
+    }
+
+    img {
+        padding: 20px 0;
+        height: 50px;
+        width: 50px;
+    }
+}
+
+.container {
+    .header-container2 {
+        display: flex;
+        justify-content: start;
+        padding: 40px 20px;
+        font-size: 12px;
+    }
+
+    a {
+        padding: 15px 10px;
+        text-decoration: none;
+    }
+
+    .imeges {
+        display: flex;
+        justify-content: flex-end;
+        align-items: start;
+
+        img {
+            height: 15px;
+            width: 15px;
+            padding: 1px 1px;
+        }
+    }
+}
+
+.description {
+    img {
+        height: 35px;
+        width: 35px;
+    }
+
+    figcaption {
+        margin: -25px 0 50px 70px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    width: 30%;
+    margin: 20px 0 ;
+
+    button {
+        padding: 20px 0px;
+        margin: 10px 0 10px;
+        a {
+            padding: 10px 0 10px 0;
+            margin-bottom: 100px;
+            text-decoration: none;
+        }
+    }
+}
+
+/*.technical-specifications {*/
+/*    img {*/
+/*        height: 50px;*/
+/*        width: 50px;*/
+/*    }*/
+/*}*/
+
+.foto-design {
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    img {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+.multimedia {
+    img {
+        height: 50px;
+        width: 50px;
+    }
+}
+.engine {
+    img {
+        height: 200px;
+        width: 250px;
+    }
+    height: 70%;
+    width: 30%;
+    overflow: hidden;
+}
+
+.box {
+    img {
+        height: 200px;
+        width: 250px;
+    }
+    height: 70%;
+    width: 30%;
+    overflow: hidden;
+}
+
+.xDrive {
+    img {
+        height: 200px;
+        width: 250px;
+    }
+    height: 70%;
+    width: 30%;
+    overflow: hidden;
+}
+
+.table {
+    display: flex;
+    flex-wrap: wrap;
+}
+.technical-specifications {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 100px 0 50px;
+}

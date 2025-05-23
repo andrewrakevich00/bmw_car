@@ -12,16 +12,16 @@
 <body>
 <header>
     <div class="site-nav">
-        <nav>
+        <nav class="flex">
             <a href="/">Автомобили</a>
             <a href="/">Конфигуратор</a>
-            <img src="assets/images/bmw_icons.ico" alt="bmw_logo">
+            <img src="assets/images/svg/BMW.svg" alt="bmw_logo">
             <a href="/">BMW с пробегом</a>
             <a href="#">Контакты</a>
         </nav>
     </div>
-    <div class="page-nav-container">
-        <div class="page-nav">
+    <div class="page-nav-container flex">
+        <div class="page-nav flex">
             <nav>
                 <a href="#">BMW 5 серии</a>
                 <a href="#">Дизайн</a>
@@ -31,12 +31,12 @@
                 <a href="#">Технологии</a>
             </nav>
         </div>
-        <div class="menu">
+        <div class="menu flex">
             <nav>
-                <a href="/"><img src="assets/images/search.png" alt="поиск"></a>
-                <a href="#"><img src="assets/images/navigation.png" alt="навигация"></a>
-                <a href="/"><img src="assets/images/man.png" alt="личный кабинет"></a>
-                <a href="/"><img src="assets/images/cart.png" alt="тележка"></a>
+                <a href="/"><img src="assets/images/svg/search.svg" alt="поиск"></a>
+                <a href="#"><img src="assets/images/svg/map.svg" alt="навигация"></a>
+                <!--                <a href="/"><img src="assets/images/man.png" alt="личный кабинет"></a>-->
+                <a href="/"><img src="assets/images/svg/basket.svg" alt="тележка"></a>
             </nav>
         </div>
 
@@ -47,88 +47,90 @@
         <div class="preview-background">
             <div class="preview-container">
                 <div class="description">
-                    <h1>THE M5 competition</h1>
-                    <figure>
-                        <img src="assets/images/m_seria.jpg" alt="М-сериа">
-                        <figcaption>СРЕДСТВО ОПЕРЕЖЕНИЯ</figcaption>
-                    </figure>
-                    <p>BMW M5 Competition — это спортивный седан, который отличается высокой мощностью, скоростью и
+                    <h1><span class="big-letters">The M5   </span> competition</h1>
+                    <div class="flex m-paket">
+                        <img src="assets/images/svg/BMW_M_logo.svg" alt="М-серия">
+                        <p>Средство опережения</p>
+                    </div>
+                    <p class="m5-desc">BMW M5 Competition — это спортивный седан, который отличается высокой мощностью,
+                        скоростью и
                         экстремальными возможностями.
                         Он разработан для тех, кто ценит динамику и спортивный характер, но при этом не готов
                         отказываться от
                         комфорта и практичности обычного седана.
-                        M5 Competition оснащен двигателем мощностью 625 л.с., что обеспечивает впечатляющие показатели
-                        разгона и
-                        максимальной скорости, а также полный привод,
-                        позволяющий уверенно чувствовать себя на любой дороге, в том числе и на гоночном треке.</p>
+                    </p>
                 </div>
                 <div class="buttons">
-                    <button>
+                    <button class="consultation">
                         <a href="/">Получить консультацию</a>
                     </button>
-                    <button>
+                    <button class="configuration">
                         <a href="/">Конфигуратор</a>
                     </button>
                 </div>
                 <div class="price">
-                    <p>Стоимость:</p>
-                    <p>120 000 $</p>
-                    <br>
-                    <p>В кредит:</p>
-                    <p>1200 $/мес*</p>
+                    <p class="key">Стоимость:</p>
+                    <p class="value">120 000 $</p>
+
+                    <p class="key">В кредит:</p>
+                    <p class="credit-value">1200 $/мес*</p>
                 </div>
             </div>
         </div>
-        <div class="technical-specifications">
-            <h2>Технические характеристики </h2>
-            <div class="table">
-                <table>
-                    <tr>
-                        <th>Рабочий объем, куб.см</th>
-                        <th>Мощность</th>
-                        <th>Ускорение 0-100 км/ч</th>
-                    </tr>
-                    <tr>
-                        <td>2,979</td>
-                        <td>635 л.с.</td>
-                        <td>3,5 с</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="technical-specifications">
+        <div class="technical-background">
+            <div class="specification-container">
+                <h2>Технические характеристики </h2>
+                <div class="characteristics">
+                    <div class="volume">
+                        <h3>Рабочий объем, куб.см</h3>
+                        <p>2,979</p>
+                    </div>
+                    <div class="power">
+                        <h3>Мощность</h3>
+                        <p>635 л.с.</p>
+                    </div>
+                    <div class="acceleration">
+                        <h3>Ускорение 0-100 км/ч</h3>
+                        <p>3,5 с</p>
+                    </div>
+                </div>
+                <div class="technical-specifications">
 
-                <div class="engine">
-                    <figure>
-                        <img src="assets/images/engin.jpg" alt="двигатель">
-                        <figcaption>
-                            <h3>Мощный мотор:</h3>
-                            <p>BMW M5 обычно оснащается мощным бензиновым двигателем V8 с турбонаддувом, обеспечивающим
-                                значительную мощность и крутящий момент. Например, в некоторых версиях мощность
-                                достигает
-                                635 л.с. </p>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="box">
-                    <figure>
-                        <img src="assets/images/box.jfif" alt="коробка передач">
-                        <figcaption>
-                            <h3>8-ступенчатый автомат:</h3>
-                            <p>В паре с двигателем работает 8-ступенчатый спортивный автомат M Steptronic,
-                                обеспечивающий
-                                плавное и быстрое переключение передач.</p>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="xDrive">
-                    <figure>
-                        <img src="assets/images/xDrive.jpg" alt="Полны привод">
-                        <figcaption>
-                            <h3>Полный привод xDrive:</h3>
-                            <p>BMW M5 часто оснащается полным приводом xDrive, что улучшает сцепление и управляемость на
-                                дороге.</p>
-                        </figcaption>
-                    </figure>
+                    <div class="engine">
+                        <figure>
+<!--                            <img src="assets/images/engin.jpg" alt="двигатель">-->
+                            <figcaption>
+                                <h3>Мощный мотор:</h3>
+                                <p>BMW M5 обычно оснащается мощным бензиновым двигателем V8 с турбонаддувом,
+                                    обеспечивающим
+                                    значительную мощность и крутящий момент. Например, в некоторых версиях мощность
+                                    достигает
+                                    635 л.с. </p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="box">
+                        <figure>
+<!--                            <img src="assets/images/box.jfif" alt="коробка передач">-->
+                            <figcaption>
+                                <h3>8-ступенчатый автомат:</h3>
+                                <p>В паре с двигателем работает 8-ступенчатый спортивный автомат M Steptronic,
+                                    обеспечивающий
+                                    плавное и быстрое переключение передач.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="xDrive">
+                        <figure>
+<!--                            <img src="assets/images/xDrive.jpg" alt="Полны привод">-->
+                            <figcaption>
+                                <h3>Полный привод xDrive:</h3>
+                                <p>BMW M5 часто оснащается полным приводом xDrive, что улучшает сцепление и
+                                    управляемость на
+                                    дороге.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
                 </div>
             </div>
         </div>

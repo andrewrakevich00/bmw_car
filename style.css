@@ -424,14 +424,15 @@ header {
 
 @media screen and (max-width: 1300px) {
     .page-nav-container a {
-        font-size: 15px;
+        font-size: 14px;
     }
 }
 
 
-@media screen and (min-width: 768px ) and (max-width: 1440px) {
+@media screen and (max-width: 1080px) {
     html {
         width: 100%;
+        font-size: 14px;
     }
 }
 
@@ -439,6 +440,7 @@ header {
     .flex {
         display: flex;
         flex-direction: column;
+        width: 100%;
 
     }
 }
@@ -459,19 +461,29 @@ header {
             display: flex;
             justify-content: center;
         }
-
-        .m5-desc {
-            margin: 0 auto;
-            width: 85%;
-        }
+    }
+}
+@media screen and (max-width: 1080px) {
+    .description {
+    .m5-desc {
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+    .buttons {
+        width: 100%;
     }
 }
 
-@media screen and (max-width: 1028px) {
+
+@media screen and (max-width: 1080px) {
     .specification-container {
 
         .technical-specifications {
             grid-template-columns: 1fr;
+            h3{
+            min-height: auto;
+            }
         }
     }
 }

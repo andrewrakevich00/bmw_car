@@ -1,16 +1,22 @@
-FROM node:16
+FROM node:16 as builder
 
 WORKDIR /app
 
-COPY package.json ./
-COPY package-lock.json ./
+COPY package.json package-lock.json ./
 
 RUN npm ci
 
 COPY . .
 
+RUN npm run build
+
+FROM node:16
+
+WORKDIR /app
+
+COPY --from=builder /app/dist ./dist
+
 EXPOSE 3000
 
-CMD ["npm", "start"]
-
+CMD ["node", "./dist/server.js"]
 

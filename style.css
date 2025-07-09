@@ -17,6 +17,7 @@
     font-style: normal;
     font-weight: 400;
     src: url("assets/fonts/Eurostile/EurostileExtendedBlack.ttf") format("ttf");
+    font-display: swap;
 }
 
 header, main, footer {

@@ -16,7 +16,7 @@
     font-family: "Eurostyle", sans-serif;
     font-style: normal;
     font-weight: 400;
-    src: url("assets/fonts/Eurostile/EurostileExtendedBlack.ttf") format("ttf");
+    src: url("../assets/fonts/Eurostile/EurostileExtendedBlack.ttf") format("ttf");
     font-display: swap;
 }
 
@@ -90,7 +90,7 @@ header {
 }
 
 .preview-background {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("assets/images/black/1200x900n (2).webp") 0 0 no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../assets/images/black/1200x900n (2).webp") 0 0 no-repeat;
     background-size: cover;
     padding-top: 170px;
 }
@@ -201,7 +201,7 @@ header {
 }
 
 .technical-background {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("assets/images/black/1200x900.webp") 0 0 no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../assets/images/black/1200x900.webp") 0 0 no-repeat;
     background-size: cover;
 }
 
@@ -282,7 +282,7 @@ header {
 }
 
 .photo-background {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("assets/images/black/1200x900n (7).webp") 0 0 no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../assets/images/black/1200x900n (7).webp") 0 0 no-repeat;
     background-size: cover;
     padding-top: 70px;
     padding-bottom: 90px;
@@ -347,7 +347,7 @@ header {
 }
 
 .paragraph-background {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("assets/images/black/1200x900n (4).webp") 0 0 no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../assets/images/black/1200x900n (4).webp") 0 0 no-repeat;
     background-size: cover;
 
     .paragraph-container {
